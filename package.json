@@ -1,0 +1,14 @@
+{
+  "name": "slidev-sample",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build my-slide/slides.md",
+    "dev": "slidev --open my-slide/slides.md"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.44.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  }
+}
